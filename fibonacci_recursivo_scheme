@@ -6,7 +6,7 @@
   ;condición de paro, cuando n<2 retorna n, sino fibo(n -1) + fibo (n-2)
   (if (< n 2)
        n
-      (+ (fibo (- n 1)) (fibo (- n 2))) ; es igual a (n -1) + fibo (n-2
+      (+ (fibo (- n 1)) (fibo (- n 2))) ; es igual a fibo(n -1) + fibo (n-2)
          
        )
 
